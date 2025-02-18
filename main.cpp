@@ -52,7 +52,7 @@ void printTable(const std::map<std::string, std::vector<ZipCodeRecord>>& stateEx
 
 int main() {
     // Load CSV file into Buffer
-    Buffer buffer("C:/Users/Chils/Downloads/us_postal_codes.csv");
+    Buffer buffer("us_postal_codes.csv");
     buffer.loadCSV();
 
     // Find extreme zip codes per state
